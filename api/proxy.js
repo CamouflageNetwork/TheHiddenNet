@@ -49,6 +49,26 @@ const createProxyUrl = (url, baseUrl) => {
   return url;
 };
 
+// Fetch the resource and handle redirects
+const fetchResource = async (url) => {
+  try {
+    const response = await axios.get(url, {
+      responseType: 'arraybuffer',
+      maxRedirects: 5, // Handle up to 5 redirects
+      headers: {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/134.0.6998.44',
+        'Referer': url,
+        'Accept': '*/*',
+        'Accept-Language': 'en-US,en;q=0.9',
+      },
+    });
+    return response;
+  } catch (error) {
+    console.error('Error fetching resource:', error.message);
+    throw error;
+  }
+};
+
 app.get('/api/proxy.js', async (req, res) => {
   const { q } = req.query;
 
@@ -57,16 +77,8 @@ app.get('/api/proxy.js', async (req, res) => {
   }
 
   try {
-    const response = await axios.get(q, {
-      responseType: 'arraybuffer',
-      headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/134.0.6998.44',
-        'Referer': q,
-        'Accept': req.headers['accept'] || '*/*',
-        'Accept-Language': req.headers['accept-language'] || 'en-US,en;q=0.9',
-      }
-    });
-
+    // Fetch the requested page
+    const response = await fetchResource(q);
     let contentType = response.headers['content-type'] || '';
     res.setHeader('Content-Type', contentType);
     res.setHeader('Cache-Control', 'public, max-age=3600'); // Cache for 1 hour
@@ -119,24 +131,19 @@ app.get('/api/proxy.js', async (req, res) => {
           `<script${before}>${content}</script>`
       );
 
+      // Recursively find and proxy all resources like images, CSS, scripts, etc.
+      const resourceRegex = /(href|src|action)="([^"]*)"/g;
+      let match;
+      while ((match = resourceRegex.exec(htmlContent)) !== null) {
+        const url = match[2];
+        if (!isAbsoluteURL(url) && !url.startsWith('/api/proxy.js')) {
+          const proxifiedUrl = createProxyUrl(url, q);
+          htmlContent = htmlContent.replace(url, proxifiedUrl);
+        }
+      }
+
       res.send(htmlContent);
-    } 
-    // For JSON or API responses
-    else if (contentType.includes('application/json')) {
-      res.json(response.data);
-    } 
-    // For images, audio, video, or other binary files
-    else if (contentType.includes('image/') || contentType.includes('audio/') || contentType.includes('video/')) {
-      res.setHeader('Content-Type', contentType);
-      res.send(response.data);
-    } 
-    // For XML responses (e.g., RSS, SOAP, etc.)
-    else if (contentType.includes('application/xml') || contentType.includes('text/xml')) {
-      res.setHeader('Content-Type', 'application/xml');
-      res.send(response.data);
-    } 
-    // For all other types of content, send it as is
-    else {
+    } else {
       res.send(response.data);
     }
   } catch (error) {
