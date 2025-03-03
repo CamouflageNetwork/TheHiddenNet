@@ -11,14 +11,14 @@ const __dirname = dirname(__filename);
 const app = express();
 const port = process.env.PORT || 3000;
 
-// No DDoS monkey
+// Rate limiting to avoid DDoS attacks
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, // 15 minutes
   max: 500, // limit to 500 requests per window
 });
 app.use(limiter);
 
-// CORS header
+// CORS middleware
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
   res.header(
@@ -57,7 +57,6 @@ app.get('/api/proxy.js', async (req, res) => {
   }
 
   try {
-    // Updated User-Agent with Chrome 134.0.6998.44
     const response = await axios.get(q, {
       responseType: 'arraybuffer',
       headers: {
@@ -72,6 +71,7 @@ app.get('/api/proxy.js', async (req, res) => {
     res.setHeader('Content-Type', contentType);
     res.setHeader('Cache-Control', 'public, max-age=3600'); // Cache for 1 hour
 
+    // Check if the content is HTML
     if (contentType.includes('text/html')) {
       let htmlContent = response.data.toString('utf-8');
 
@@ -109,8 +109,18 @@ app.get('/api/proxy.js', async (req, res) => {
       );
 
       res.send(htmlContent);
-    } else {
-      // For raw data (non-HTML content)
+    } 
+    // Check if content type is JSON
+    else if (contentType.includes('application/json')) {
+      res.json(response.data);
+    } 
+    // For API responses (e.g., JSON data, XML, etc.)
+    else if (contentType.includes('application/xml') || contentType.includes('text/xml')) {
+      res.setHeader('Content-Type', 'application/xml');
+      res.send(response.data);
+    } 
+    // For images or other file types
+    else {
       res.send(response.data);
     }
   } catch (error) {
@@ -122,10 +132,10 @@ app.get('/api/proxy.js', async (req, res) => {
   }
 });
 
-// Serve static files from 'public' directory
+// Serve static files from the 'public' folder
 app.use(express.static('public'));
 
-// Serve index.html for all other routes
+// For all other routes, serve the index.html file
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
