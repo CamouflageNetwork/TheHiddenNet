@@ -123,11 +123,12 @@ body {
 }
 .games-grid {
   display: flex;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
   gap: 20px;
   padding: 20px;
-  justify-content: center;
-  flex-direction: row;
+  width: 100%;
 }
 .game-item {
   background: #1e1e1e;
