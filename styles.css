@@ -182,3 +182,8 @@ h3 {
   justify-content: center;
   cursor: pointer;
 }
+.game-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
