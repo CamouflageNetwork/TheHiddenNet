@@ -127,6 +127,7 @@ body {
   gap: 20px;
   padding: 20px;
   justify-content: center;
+  flex-direction: row;
 }
 .game-item {
   background: #1e1e1e;
