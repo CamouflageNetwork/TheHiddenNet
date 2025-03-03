@@ -1,4 +1,4 @@
-const axios = require('axios');
+const axios = require("axios");
 
 export default async function handler(req, res) {
     res.setHeader("Access-Control-Allow-Origin", "*");
@@ -14,8 +14,8 @@ export default async function handler(req, res) {
         if (!url) return res.status(400).send("No URL provided");
 
         const response = await axios.get(url, {
-            responseType: 'arraybuffer',
-            headers: { 'User-Agent': req.headers['user-agent'] }
+            responseType: "arraybuffer",
+            headers: { "User-Agent": req.headers["user-agent"] }
         });
 
         res.setHeader("Content-Type", response.headers["content-type"]);
