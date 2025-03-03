@@ -1,9 +1,5 @@
 {
   "rewrites": [
     { "source": "/proxy", "destination": "/api/proxy" }
-  ],
-  "build": {
-    "builder": "npm",
-    "buildCommand": "npm install"
-  }
+  ]
 }
