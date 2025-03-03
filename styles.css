@@ -122,26 +122,23 @@ body {
   }
 }
 .games-grid {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   gap: 20px;
   padding: 20px;
   width: 100%;
+  justify-content: center;
 }
 .game-item {
   width: 180px;
   height: 220px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-start;
   background: #1e1e1e;
   border-radius: 10px;
   overflow: hidden;
   position: relative;
-  transition: transform 0.2s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .game-item:hover {
   transform: scale(1.05);
@@ -167,26 +164,19 @@ h3 {
 }
 .play-button {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 50px;
-  height: 50px;
-  background: rgba(37, 74, 0, 0.8);
+  bottom: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  background: rgb(37, 74, 0);
   text-decoration: none;
   font-size: 1rem;
   color: white;
-  border: none;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  transition: background 0.3s ease, transform 0.2s ease-in-out;
-}
-.play-button:hover {
-  background: rgb(50, 100, 0);
-  transform: translate(-50%, -50%) scale(1.1);
 }
 .game-container {
   display: flex;
