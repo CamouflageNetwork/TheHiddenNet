@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Google",
+        "url": "/active/iframe.html#https://google.com/",
+        "image": "https://static.vecteezy.com/system/resources/previews/013/948/549/non_2x/google-logo-on-transparent-white-background-free-vector.jpg"
+    },
+    {
+        "name": "DuckDuckGo",
+        "url": "/active/iframe.html#https://duckduckgo.com/",
+        "image": "https://images.crunchbase.com/image/upload/c_pad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1409630385/bpegl8zp6c81euikfx7j.png"
+    },
+    {
+        "name": "Vscode",
+        "url": "/active/iframe.html#https://vscode.dev/",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9E5HZlsBUfIyQdZy53DBNd5c9aIxECWdFww&s"
+    },
+    {
+        "name": "Youtube",
+        "url": "/active/iframe.html#https://youtube.com/",
+        "image": "https://static.vecteezy.com/system/resources/previews/014/035/547/non_2x/youtube-logo-isolated-white-background-illustration-free-vector.jpg"
+    },
+    {
+        "name": "Discord",
+        "url": "/active/iframe.html#https://discord.com/",
+        "image": "https://static.vecteezy.com/system/resources/previews/006/892/623/non_2x/discord-logo-icon-editorial-free-vector.jpg"
+    },
+    {
+        "name": "Brave",
+        "url": "/active/iframe.html#https://search.brave.com/",
+        "image": "https://img.freepik.com/premium-vector/brave-browser-logo-symbol-isolated-white-background-internet-surfing-program-icon_337410-1958.jpg"
+    },
+    {
+        "name": "Itch.io",
+        "url": "/active/iframe.html#https://itch.io/",
+        "image": "https://cdn2.steamgriddb.com/icon/a72437afb97803a6acb5420ef8b8a90f.png"
+    },
+    {
+        "name": "Crazy Games",
+        "url": "/active/iframe.html#https://crazygames.com/",
+        "image": "https://media.pocketgamer.biz/images/127700/84202/crazygames-launches-new-social-features-for-instant-multiplayer-gaming_s470.jpg"
+    },
+    {
+        "name": "TikTok",
+        "url": "/active/iframe.html#https://tiktok.com/",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP0N3zvG1w5AohL7rpXml844HBmbINcRx0oDSCMCrpiT55vOV8ILlUzTV78Q6na5tPjxs&usqp=CAU"
+    }
+]
