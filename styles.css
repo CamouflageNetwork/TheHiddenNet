@@ -129,6 +129,7 @@ body {
   gap: 20px;
   padding: 20px;
   width: 100%;
+  grid-auto-flow: row;
 }
 .game-item {
   width: 220px;
