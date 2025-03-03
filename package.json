@@ -1,0 +1,8 @@
+{
+  "name": "vercel-proxy",
+  "version": "1.0.0",
+  "main": "api/proxy.js",
+  "dependencies": {
+    "axios": "^1.6.0"
+  }
+}
