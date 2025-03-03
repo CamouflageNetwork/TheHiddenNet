@@ -11,16 +11,14 @@ const __dirname = dirname(__filename);
 const app = express();
 const port = process.env.PORT || 3000;
 
-// no ddos monkey
+// No DDoS monkey
 const limiter = rateLimit({
-  windowMs: 15 * 60 * 1000,
-  max: 500,
+  windowMs: 15 * 60 * 1000, // 15 minutes
+  max: 500, // limit to 500 requests per window
 });
 app.use(limiter);
 
-// comment hahah\
-// oreo is goofy 
-
+// CORS header
 app.use((req, res, next) => {
   res.header('Access-Control-Allow-Origin', '*');
   res.header(
@@ -48,23 +46,22 @@ const createProxyUrl = (url, baseUrl) => {
     return `/api/proxy.js?q=${encodeURIComponent(absoluteUrl)}`;
   }
 
-  // Fallback cuz why not
   return url;
 };
 
 app.get('/api/proxy.js', async (req, res) => {
-  const { q } = req.query; // url to proxyer
+  const { q } = req.query;
 
   if (!q) {
     return res.status(400).json({ error: 'Missing query parameter: q' });
   }
 
   try {
-    // hehe, only skids use applewebkit 
+    // Updated User-Agent with Chrome 134.0.6998.44
     const response = await axios.get(q, {
       responseType: 'arraybuffer',
       headers: {
-        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/135.0.7037.2'
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/134.0.6998.44',
         'Referer': q,
         'Accept': req.headers['accept'] || '*/*',
         'Accept-Language': req.headers['accept-language'] || 'en-US,en;q=0.9',
@@ -73,8 +70,7 @@ app.get('/api/proxy.js', async (req, res) => {
 
     let contentType = response.headers['content-type'] || '';
     res.setHeader('Content-Type', contentType);
-    // caching cuz speeds 
-    res.setHeader('Cache-Control', 'public, max-age=3600');
+    res.setHeader('Cache-Control', 'public, max-age=3600'); // Cache for 1 hour
 
     if (contentType.includes('text/html')) {
       let htmlContent = response.data.toString('utf-8');
@@ -89,14 +85,12 @@ app.get('/api/proxy.js', async (req, res) => {
         (match, quote, url) => `url(${quote}${createProxyUrl(url, q)}${quote})`
       );
 
-     
       htmlContent = htmlContent.replace(
         /<form([^>]*)action="([^"]*)"([^>]*)>/g,
         (match, before, url, after) =>
           `<form${before}action="${createProxyUrl(url, q)}"${after}>`
       );
 
-      
       htmlContent = htmlContent.replace(
         /window\.location\.href\s*=\s*['"]([^'"]+)['"]/g,
         (match, url) => `window.location.href='${createProxyUrl(url, q)}'`
@@ -108,7 +102,6 @@ app.get('/api/proxy.js', async (req, res) => {
           `<script${before}src="${createProxyUrl(url, q)}"${after}>`
       );
 
-      // Rewrite <iframe> tags (this fo all you youtube bitches)
       htmlContent = htmlContent.replace(
         /<iframe([^>]*)src="([^"]*)"([^>]*)>/gi,
         (match, before, url, after) =>
@@ -117,7 +110,7 @@ app.get('/api/proxy.js', async (req, res) => {
 
       res.send(htmlContent);
     } else {
-      // odawisee raw data
+      // For raw data (non-HTML content)
       res.send(response.data);
     }
   } catch (error) {
@@ -129,10 +122,10 @@ app.get('/api/proxy.js', async (req, res) => {
   }
 });
 
-// startic
+// Serve static files from 'public' directory
 app.use(express.static('public'));
-// im quoting that⬆️
 
+// Serve index.html for all other routes
 app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
