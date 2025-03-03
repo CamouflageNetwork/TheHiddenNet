@@ -143,13 +143,12 @@ body {
   position: relative;
   transition: transform 0.2s ease-in-out;
 }
-
 .game-item:hover {
   transform: scale(1.05);
 }
 .game-item img {
   width: 100%;
-  height: auto;
+  height: 150px;
   object-fit: cover;
   filter: brightness(70%);
   transition: filter 0.3s ease;
@@ -170,11 +169,11 @@ h3 {
   position: absolute;
   bottom: 10px;
   right: 10px;
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   background: rgb(37, 74, 0);
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: white;
   border: none;
   border-radius: 50%;
@@ -188,4 +187,3 @@ h3 {
   flex-direction: row;
   flex-wrap: wrap;
 }
-
