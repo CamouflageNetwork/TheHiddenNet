@@ -124,12 +124,11 @@ app.get('/api/proxy.js', async (req, res) => {
           `<iframe${before}src="${createProxyUrl(url, q)}"${after}>`
       );
 
-      // Ensure all inline script URLs in <script> tags are proxied
-      htmlContent = htmlContent.replace(
-        /<script([^>]*)>([\s\S]*?)<\/script>/gi,
-        (match, before, content) =>
-          `<script${before}>${content}</script>`
-      );
+      // Inject the Eruda debugging script at the end of the body
+      htmlContent += `
+        <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
+        <script>eruda.init();</script>
+      `;
 
       // Recursively find and proxy all resources like images, CSS, scripts, etc.
       const resourceRegex = /(href|src|action)="([^"]*)"/g;
