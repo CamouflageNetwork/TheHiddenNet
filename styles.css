@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #0a0a0a;
+  color: white;
+  display: flex;
+  height: 100vh;
+}
+.sidebar {
+  width: 60px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(10, 10, 10, 0.7);
+  backdrop-filter: blur(15px);
+  transition: width 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  border-right: 4px solid;
+  border-image-source: linear-gradient(270deg, #ff0000, #ff7300, #ffeb00, #47ff00, #00ffb3, #0033ff, #7a00ff, #ff00f2);
+  border-image-slice: 1;
+  animation: borderAnimation 4s linear infinite;
+}
+@keyframes borderAnimation {
+  0% { border-image-source: linear-gradient(0deg, #ff0000, #ff7300, #ffeb00, #47ff00, #00ffb3, #0033ff, #7a00ff, #ff00f2); }
+  25% { border-image-source: linear-gradient(90deg, #ff0000, #ff7300, #ffeb00, #47ff00, #00ffb3, #0033ff, #7a00ff, #ff00f2); }
+  50% { border-image-source: linear-gradient(180deg, #ff0000, #ff7300, #ffeb00, #47ff00, #00ffb3, #0033ff, #7a00ff, #ff00f2); }
+  75% { border-image-source: linear-gradient(270deg, #ff0000, #ff7300, #ffeb00, #47ff00, #00ffb3, #0033ff, #7a00ff, #ff00f2); }
+  100% { border-image-source: linear-gradient(360deg, #ff0000, #ff7300, #ffeb00, #47ff00, #00ffb3, #0033ff, #7a00ff, #ff00f2); }
+}
+.sidebar:hover {
+  width: 200px;
+}
+.menu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.menu-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 40px;
+  height: 50px;
+  margin: 15px 0;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  transition: width 0.3s ease, background 0.3s ease;
+  color: white;
+  text-decoration: none;
+  font-size: 22px;
+  position: relative;
+  padding-left: 10px;
+}
+.menu-item i {
+  font-size: 24px;
+}
+.menu-item span {
+  position: absolute;
+  left: 60px;
+  white-space: nowrap;
+  font-size: 18px;
+  overflow: hidden;
+  width: 0;
+  opacity: 0;
+  transition: width 0.3s ease, opacity 0.3s ease;
+}
+.sidebar:hover .menu-item {
+  width: 160px;
+}
+.sidebar:hover .menu-item span {
+  width: 100%;
+  opacity: 1;
+}
+.menu-item:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+.content {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  text-shadow: 0px 0px 10px green;
+  font-size: 2.5rem;
+  flex-direction: column;
+}
+#element-h1 {
+  color: white;
+  text-align: center;
+  text-shadow: 0px 0px 10px green;
+  font-size: 2.5rem;
+  user-select: none;
+}
+#element-h1, #element {
+  text-align: center;
+  text-shadow: 0px 0px 10px green;
+  font-size: 2.5rem;
+}
+#element {
+  color: green;
+  text-align: center;
+  text-shadow: 0px 0px 10px green;
+  font-size: 5rem;
+  user-select: none;
+}
+.typed-cursor {
+  animation: blink 0.7s infinite;
+  color: green;
+  font-size: 5rem;
+}
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+.game-item {
+  background: #1e1e1e;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.2s ease-in-out;
+  width: 10rem;
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  user-select: none;
+}
+.game-item:hover {
+  transform: scale(1.05);
+}
+.game-item img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  filter: brightness(70%);
+  transition: filter 0.3s ease;
+}
+.game-item:hover > img {
+  filter: brightness(50%);
+}
+h3 {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  user-select: none;
+}
+.play-button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  background: rgb(37, 74, 0);
+  text-decoration: none;
+  font-size: 1rem;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
