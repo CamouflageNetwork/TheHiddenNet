@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HiddenNet | Games</title>
+  <link rel="stylesheet" href="/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+  <div class="sidebar">
+    <div class="menu">
+      <a href="/" class="menu-item">
+        <i class="fa-solid fa-house"></i><span>Home</span>
+      </a>
+      <a href="/games/" class="menu-item">
+        <i class="fa-solid fa-gamepad"></i><span>Games</span>
+      </a>
+      <a href="/apps.html/" class="menu-item">
+        <i class="fa-solid fa-th"></i><span>Apps</span>
+      </a>
+      <a href="https://discord.gg/TfVwUhh3tZ" class="menu-item">
+        <i class="fa-brands fa-discord"></i><span>Discord</span>
+      </a>
+    </div>
+  </div>
+  <div class="content">
+    <h1>Games</h1>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", async () => {
+      try {
+        const response = await axios.get("games.json");
+        const games = response.data;
+        const container = document.getElementById("games-container");
+        
+        games.forEach(game => {
+          const gameElement = document.createElement("div");
+          gameElement.classList.add("game-item");
+          gameElement.innerHTML = `
+            <img src="${game.image}" alt="${game.name}">
+            <h3>${game.name}</h3>
+            <a href="${game.url}" class="play-button">Play</a>
+          `;
+          container.appendChild(gameElement);
+        });
+      } catch (error) {
+        console.error("Failed to load games", error);
+      }
+    });
+  </script>
+</body>
+</html>
