@@ -71,10 +71,10 @@ app.get('/api/proxy.js', async (req, res) => {
     res.setHeader('Content-Type', contentType);
     res.setHeader('Cache-Control', 'public, max-age=3600'); // Cache for 1 hour
 
-    // Check if the content is HTML
     if (contentType.includes('text/html')) {
       let htmlContent = response.data.toString('utf-8');
 
+      // Rewriting links in href, src, action, and form actions
       htmlContent = htmlContent.replace(
         /(href|src|action)="([^"]*)"/g,
         (match, attr, url) => `${attr}="${createProxyUrl(url, q)}"`
@@ -85,41 +85,57 @@ app.get('/api/proxy.js', async (req, res) => {
         (match, quote, url) => `url(${quote}${createProxyUrl(url, q)}${quote})`
       );
 
+      // Rewriting <form> action URLs
       htmlContent = htmlContent.replace(
         /<form([^>]*)action="([^"]*)"([^>]*)>/g,
         (match, before, url, after) =>
           `<form${before}action="${createProxyUrl(url, q)}"${after}>`
       );
 
+      // Rewriting window.location.href in JS
       htmlContent = htmlContent.replace(
         /window\.location\.href\s*=\s*['"]([^'"]+)['"]/g,
         (match, url) => `window.location.href='${createProxyUrl(url, q)}'`
       );
 
+      // Rewriting <script> src URLs
       htmlContent = htmlContent.replace(
         /<script([^>]*)src="([^"]*)"([^>]*)>/gi,
         (match, before, url, after) =>
           `<script${before}src="${createProxyUrl(url, q)}"${after}>`
       );
 
+      // Rewriting <iframe> src URLs
       htmlContent = htmlContent.replace(
         /<iframe([^>]*)src="([^"]*)"([^>]*)>/gi,
         (match, before, url, after) =>
           `<iframe${before}src="${createProxyUrl(url, q)}"${after}>`
       );
 
+      // Ensure all inline script URLs in <script> tags are proxied
+      htmlContent = htmlContent.replace(
+        /<script([^>]*)>([\s\S]*?)<\/script>/gi,
+        (match, before, content) =>
+          `<script${before}>${content}</script>`
+      );
+
       res.send(htmlContent);
     } 
-    // Check if content type is JSON
+    // For JSON or API responses
     else if (contentType.includes('application/json')) {
       res.json(response.data);
     } 
-    // For API responses (e.g., JSON data, XML, etc.)
+    // For images, audio, video, or other binary files
+    else if (contentType.includes('image/') || contentType.includes('audio/') || contentType.includes('video/')) {
+      res.setHeader('Content-Type', contentType);
+      res.send(response.data);
+    } 
+    // For XML responses (e.g., RSS, SOAP, etc.)
     else if (contentType.includes('application/xml') || contentType.includes('text/xml')) {
       res.setHeader('Content-Type', 'application/xml');
       res.send(response.data);
     } 
-    // For images or other file types
+    // For all other types of content, send it as is
     else {
       res.send(response.data);
     }
