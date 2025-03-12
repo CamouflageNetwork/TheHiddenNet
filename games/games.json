@@ -1,222 +1,82 @@
 [
-    {
-        "name": "Retrobowl",
-        "url": "https://thehiddenproxy.vercel.app/games/retro-bowl/",
-        "image": "https://img.poki-cdn.com/cdn-cgi/image/quality=78,width=314,height=314,fit=cover,f=auto/ee9ca3764ef4289a48a1ebf457ef605441ed1f35a0f2eb12707a70d609e53686.png"
-    },
-    {
-        "name": "Eaglercraft",
-        "url": "/static/iframe.html#https://eaglercraft.com/mc/1.8.8",
-        "image": "https://avatars.githubusercontent.com/u/136807160?s=200&v=4"
-    },
-    {
-        "name": "1v1.lol",
-        "url": "https://thehiddenproxy.vercel.app/games/1v1lol/",
-        "image": "https://img.utdstc.com/icon/983/22a/98322a3b2be892eed31589906ffd949b68bcccc9a21ba562987965b5ec6bc6de:200"
-    },
-    {
-        "name": "Google Feud",
-        "url": "https://thehiddenproxy.vercel.app/games/google-feud/",
-        "image": "https://img.poki-cdn.com/cdn-cgi/image/quality=78,width=314,height=314,fit=cover,f=auto/ce72bcf0-3b49-471d-b38d-8d99287c7d8e.png"
-    },
-    {
-        "name": "Tiny Fishing",
-        "url": "https://thehiddenproxy.vercel.app/games/tiny-fishing/",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDDB0Astl-IVntWlptdQVMvZTnxlFzUDvvP9vx7dSjSWSVl25p0uIhJxzLX06lC8BpMQ8&usqp=CAU"
-    },
-    {
-        "name": "Bad Monday Sim",
-        "url": "/static/iframe.html#https://lumpytouch.itch.io/bad-monday-simulator",
-        "image": "https://i1.sndcdn.com/artworks-pnPXG7LIvBWD6JHV-TAhYAA-t500x500.jpg"
-    },
-    {
-        "name": "Slope",
-        "url": "https://thehiddenproxy.vercel.app/games/slope/",
-        "image": "https://soccer-random.github.io/img/slope.png"
-    },
-    {
-        "name": "Slope 2",
-        "url": "https://thehiddenproxy.vercel.app/games/slope-2/",
-        "image": "https://htmlxm.github.io/thumb/slope-2.png"
-    },
-    {
-        "name": "Coreball",
-        "url": "https://thehiddenproxy.vercel.app/games/core-ball/",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkFo8Ww72DqC7SYfkhgE_DNrhgNOr7PCtgRA&s"
-    },
-    {
-        "name": "Bitlife",
-        "url": "https://thehiddenproxy.vercel.app/games/bitlife/",
-        "image": "https://d.newsweek.com/en/full/1317374/bitlife-ribbons-how-get-all-complete-list-android-ios-cheats-guide-tips-become.jpg?w=1600&h=1600&q=88&f=75befc746fb83a0c568c44ca07bc5e64"
-    },
-    {
-        "name": "Geometry Dash",
-        "url": "https://thehiddenproxy.vercel.app/games/geo-dash/",
-        "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTzvVLR52MO9FzD9EAl6Krn7mhIoVywabxOjbEEzHd9cQOVZFz18VixeCshCb0fz4P2NqohQ4UY-_-04_DAqwxApYDfmERQp_S9xNqyCUo"
-    },
-    {
-        "name": "Just Fall",
-        "url": "https://thehiddenproxy.vercel.app/games/just-fall/",
-        "image": "https://play-lh.googleusercontent.com/-0rSllZ8as88Jcs3iZ7-JCFyTb3YLB-HjR7bY7P6q_2MAswmDH4h1qNPfFiaZqzkkg"
-    },
-    {
-        "name": "Flappy Bird",
-        "url": "https://thehiddenproxy.vercel.app/games/flappybird/",
-        "image": "https://mir-s3-cdn-cf.behance.net/projects/404/c4b80d143006427.Y3JvcCw4NjksNjgwLDI1LDA.png"
-    },
-    {
-        "name": "Basketball Stars",
-        "url": "https://thehiddenproxy.vercel.app/games/basketball-stars/",
-        "image": "https://basketball-stars.io/upload/cache/upload/imgs/basketball-stars1-m240x240.jpg"
-    },
-    {
-        "name": "2048-multitask",
-        "url": "https://thehiddenproxy.vercel.app/games/2048-multitask/",
-        "image": "https://play-lh.googleusercontent.com/bZregCeEpzMwRoocLnsYb4Te-vPPHkW1k5H1xsQ3qK9yE00fixpWu5fNsUz3ut2IiDHn"
-    },
-    {
-        "name": "2048",
-        "url": "https://thehiddenproxy.vercel.app/games/2048/",
-        "image": "https://play-lh.googleusercontent.com/bZregCeEpzMwRoocLnsYb4Te-vPPHkW1k5H1xsQ3qK9yE00fixpWu5fNsUz3ut2IiDHn"
-    },
-    {
-        "name": "9007199254740992",
-        "url": "https://thehiddenproxy.vercel.app/games/9007199254740992/",
-        "image": "https://moyaimoment.github.io/img/9007199254740992.png"
-    },
-    {
-        "name": "awesometanks2",
-        "url": "https://thehiddenproxy.vercel.app/games/awesometanks2/",
-        "image": "https://eta.vgmtreasurechest.com/soundtracks/awesome-tanks-soundtrack/20211026_180303.jpg"
-    },
-    {
-        "name": "bad-ice-cream-2",
-        "url": "https://thehiddenproxy.vercel.app/games/bad-ice-cream-2/",
-        "image": "https://www1.minijuegosgratis.com/v3https://thehiddenproxy.vercel.app/games/thumbnails/24137_7_sq.jpg"
-    },
-    {
-        "name": "bad-ice-cream-3",
-        "url": "https://thehiddenproxy.vercel.app/games/bad-ice-cream-3/",
-        "image": "https://cdn.nitrome.com/images/uploads/1006-1388685375-bic3-update.png"
-    },
-    {
-        "name": "bad-ice-cream",
-        "url": "https://thehiddenproxy.vercel.app/games/bad-ice-cream/",
-        "image": "https://www4.minijuegosgratis.com/v3https://thehiddenproxy.vercel.app/games/thumbnails/16925_7_sq.jpg"
-    },
-    {
-        "name": "basket-random",
-        "url": "https://thehiddenproxy.vercel.app/games/basket-random/",
-        "image": "https://img.gamedistribution.com/bf1268dccb5d43e7970bb3edaa54afc8-512x512.jpeg"
-    },
-    {
-        "name": "doge2048",
-        "url": "https://thehiddenproxy.vercel.app/games/doge2048/",
-        "image": "https://images.sftcdn.net/images/t_app-icon-m/p/aeabd732-2787-4010-8679-59d58fdb2392/1222419601/2048-doge-game-logo"
-    },
-    {
-        "name": "ducklife1",
-        "url": "https://thehiddenproxy.vercel.app/games/ducklife1/",
-        "image": "https://www.cokogames.com/wp-content/uploads/thumbs/custom/D/ducklife.jpg"
-    },
-    {
-        "name": "ducklife2",
-        "url": "https://thehiddenproxy.vercel.app/games/ducklife2/",
-        "image": "https://dinosaur-game.io/cache/data/image/game/duck-life-2%20(2)-m150x150.webp"
-    },
-    {
-        "name": "ducklife3",
-        "url": "https://thehiddenproxy.vercel.app/games/ducklife3/",
-        "image": "https://img.poki-cdn.com/cdn-cgi/image/quality=78,width=1200,height=1200,fit=cover,f=png/f5671816-e95b-4d41-adb7-411708f431ba.png"
-    },
-    {
-        "name": "ducklife4",
-        "url": "https://thehiddenproxy.vercel.app/games/ducklife4/",
-        "image": "https://img.poki-cdn.com/cdn-cgi/image/quality=78,width=1200,height=1200,fit=cover,f=png/e0453c83-9012-44a3-8d4d-595ea0400f58.png"
-    },
-    {
-        "name": "gunspin",
-        "url": "https://thehiddenproxy.vercel.app/games/gunspin/",
-        "image": "https://img.gamedistribution.com/917cce8c44c44638a8cdc2a1794b65c8-512x512.jpeg"
-    },
-    {
-        "name": "impossiblequiz",
-        "url": "https://thehiddenproxy.vercel.app/games/impossiblequiz/",
-        "image": "https://img.poki-cdn.com/cdn-cgi/image/quality=78,width=314,height=314,fit=cover,f=auto/3cd96c99-46c1-4ff0-b04a-82381ea07349.png"
-    },
-    {
-        "name": "basketbrosio",
-        "url": "https://thehiddenproxy.vercel.app/games/basketbrosio/",
-        "image": "https://a.silvergames.com/j/b/basketbros-io.jpg"
-    },
-    {
-        "name": "chrome-dino",
-        "url": "https://thehiddenproxy.vercel.app/games/chrome-dino/",
-        "image": "https://img.poki-cdn.com/cdn-cgi/image/quality=78,width=314,height=314,fit=cover,f=auto/9afd3b92ab41ffca7f368a8fcbd6d39a75894efe0edbc14cf1f067cf625e6678.png"
-    },
-    {
-        "name": "cupcake2048",
-        "url": "https://thehiddenproxy.vercel.app/games/cupcake2048/",
-        "image": "https://play-lh.googleusercontent.com/tPr661utQmQBG4c2uqY2KcgvQ9a_s36iMg8E0aCtYERKgR7ptV9x30tdqU0dj6pocA"
-    },
-    {
-        "name": "driftboss",
-        "url": "https://thehiddenproxy.vercel.app/games/driftboss/",
-        "image": "https://buzzmavo.com/wp-content/uploads/thumbs/custom/0-9/512.jpeg"
-    },
-    {
-        "name": "infinitecraft",
-        "url": "https://thehiddenproxy.vercel.app/games/infinitecraft/",
-        "image": "https://static.fanbyte.com/uploads/2024/02/Infinite%20Craft%20Inverted-360x360.jpg"
-    },
-    {
-        "name": "learntofly",
-        "url": "https://thehiddenproxy.vercel.app/games/learntofly/",
-        "image": "https://image.spreadshirtmedia.com/image-server/v1/compositions/T210A1PA4301PT17X29Y20D11330543W27177H19067/views/1,width=550,height=550,appearanceId=1,backgroundColor=FFFFFF,noPt=true/learn-to-fly-mens-t-shirt.jpg"
-    },
-    {
-        "name": "learntofly2",
-        "url": "https://thehiddenproxy.vercel.app/games/learntofly2/",
-        "image": "https://cdn2.steamgriddb.com/grid/a3c0b5b0ab6605cf6c1d9406b592bbe8.png"
-    },
-    {
-        "name": "meme2048",
-        "url": "https://thehiddenproxy.vercel.app/games/meme2048/",
-        "image": "https://play-lh.googleusercontent.com/bZregCeEpzMwRoocLnsYb4Te-vPPHkW1k5H1xsQ3qK9yE00fixpWu5fNsUz3ut2IiDHn"
-    },
-    {
-        "name": "motox3m",
-        "url": "https://thehiddenproxy.vercel.app/games/motox3m/",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJCEvsEQS-MH1v6mkNOTnkrHDxmecSo3Th6jV32hv3TRlQWyIYSczPeaExAV4U9yHAn03uGw"
-    },
-    {
-        "name": "motox3mpool",
-        "url": "https://thehiddenproxy.vercel.app/games/motox3mpool/",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYCY6c1sKImD4LFm_YyRyzNJDVPmBYPLhUHA&s"
-    },
-    {
-        "name": "motox3mspooky",
-        "url": "https://thehiddenproxy.vercel.app/games/motox3mspooky/",
-        "image": "https://img.poki-cdn.com/cdn-cgi/image/quality=78,width=314,height=314,fit=cover,f=auto/3f8a297822df891a1c158576b6461014.png"
-    },
-    {
-        "name": "motox3mwinter",
-        "url": "https://thehiddenproxy.vercel.app/games/motox3mwinter/",
-        "image": "https://assets.funnygames.org/9/113559/96003/1024x1024/moto-x3m-winter.webp"
-    },
-    {
-        "name": "vex",
-        "url": "https://thehiddenproxy.vercel.app/games/vex/",
-        "image": "https://play-lh.googleusercontent.com/0OnVFzHIMuLLeMjvACoNzxRbungfOH1zH4hUWQnIg5KfM2va_mFssFuRGq26WqWA"
-    },
-    {
-        "name": "vex2",
-        "url": "https://thehiddenproxy.vercel.app/games/vex2/",
-        "image": "https://yepicdn.com/system/static/thumbs/tile_thumb/1119/thumb150_vex-2.jpg?1492006228"
-    },
-    {
-        "name": "volley-random",
-        "url": "https://thehiddenproxy.vercel.app/games/volley-random/",
-        "image": "https://play-lh.googleusercontent.com/VeKAevaOjPlcyCtOpFY1h6SjwEjnu4ryG3xQ_qw1Muuhrg8pqwhl1aPjWovMkjc0Rc4"
-    }
+  {
+    "name": "1v1lol",
+    "url": "/games/1v1lol/",
+    "image": "https://1v1.lol/assets/images/thumbnail.jpg"
+  },
+  {
+    "name": "2048-multitask",
+    "url": "/games/2048-multitask/",
+    "image": "https://he1l-v4.vercel.app/projects/2048-multitask/thumbnail.png"
+  },
+  {
+    "name": "2048",
+    "url": "/games/2048/",
+    "image": "https://play-lh.googleusercontent.com/2048/thumbnail.jpg"
+  },
+  {
+    "name": "3line",
+    "url": "/games/3line/",
+    "image": "https://example.com/3line/thumbnail.jpg"
+  },
+  {
+    "name": "9007199254740992",
+    "url": "/games/9007199254740992/",
+    "image": "https://dmitrykuzmenko.github.io/2048/thumbnail.png"
+  },
+  {
+    "name": "a-dance-of-fire-and-ice",
+    "url": "/games/a-dance-of-fire-and-ice/",
+    "image": "https://snokido.com/game/a-dance-of-fire-and-ice/thumbnail.jpg"
+  },
+  {
+    "name": "achievementunlocked",
+    "url": "/games/achievementunlocked/",
+    "image": "https://silvergames.com/en/achievement-unlocked/thumbnail.jpg"
+  },
+  {
+    "name": "achievementunlocked2",
+    "url": "/games/achievementunlocked2/",
+    "image": "https://example.com/achievement-unlocked-2/thumbnail.jpg"
+  },
+  {
+    "name": "achievementunlocked3",
+    "url": "/games/achievementunlocked3/",
+    "image": "https://example.com/achievement-unlocked-3/thumbnail.jpg"
+  },
+  {
+    "name": "adrenalinechallenge",
+    "url": "/games/adrenalinechallenge/",
+    "image": "https://example.com/adrenaline-challenge/thumbnail.jpg"
+  },
+  {
+    "name": "ageofwar",
+    "url": "/games/ageofwar/",
+    "image": "https://play-lh.googleusercontent.com/age-of-war/thumbnail.jpg"
+  },
+  {
+    "name": "ages-of-conflict",
+    "url": "/games/ages-of-conflict/",
+    "image": "https://example.com/ages-of-conflict/thumbnail.jpg"
+  },
+  {
+    "name": "amorphous",
+    "url": "/games/amorphous/",
+    "image": "https://example.com/amorphous/thumbnail.jpg"
+  },
+  {
+    "name": "awesometanks2",
+    "url": "/games/awesometanks2/",
+    "image": "https://example.com/awesome-tanks-2/thumbnail.jpg"
+  },
+  {
+    "name": "badicecream",
+    "url": "/games/badicecream/",
+    "image": "https://example.com/bad-ice-cream/thumbnail.jpg"
+  },
+  {
+    "name": "badicecream2",
+    "url": "/games/badicecream2/",
+    "image": "https://example.com/bad-ice-cream-2/thumbnail.jpg"
+  }
 ]
