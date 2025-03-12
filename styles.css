@@ -125,11 +125,11 @@ body {
   }
 }
 .games-grid {
-  display: grid;
+  display: flex;
   gap: 20px;
   padding: 20px;
   width: 100%;
-  grid-auto-flow: row;
+  flex-direction: row;
 }
 .game-item {
   width: 220px;
