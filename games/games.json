@@ -82,66 +82,66 @@
   {
     "name": "basket-random",
     "url": "/games/basket-random/",
-    "image": ""
+    "image": "https://play-lh.googleusercontent.com/gP8T5Z1O-ngxIloiwcBZzrzyLPYDp0R_1BDNKUDZboIRPVImeyWI8-7aExvB9gAGNKc"
   },
   {
     "name": "basketball-stars",
     "url": "/games/basketball-stars/",
-    "image": ""
+    "image": "https://gaamess.com/wp-content/uploads/2022/06/basketball-stars-2019.jpg"
   },
   {
     "name": "basketbros-io",
     "url": "/games/basketbros-io/",
-    "image": ""
+    "image": https://ovo-game.github.io/imgs/basket-bros.png""
   },
   {
     "name": "bitlife",
     "url": "/games/bitlife/",
-    "image": ""
+    "image": "https://play-lh.googleusercontent.com/fUM-UyywXxjC8soxAZdIlxJrlRRXmql8wkE426SHzft4lJycSKVd2jCYQQX1BEG9Xw"
   },
   {
     "name": "core-ball",
     "url": "/games/core-ball/",
-    "image": ""
+    "image": "https://backroomsgame.io/data/image/game/core-ball.png"
   },
   {
     "name": "cupcake2048",
     "url": "/games/cupcake2048/",
-    "image": ""
+    "image": "https://play-lh.googleusercontent.com/tPr661utQmQBG4c2uqY2KcgvQ9a_s36iMg8E0aCtYERKgR7ptV9x30tdqU0dj6pocA"
   },
   {
     "name": "doge2048",
     "url": "/games/doge2048/",
-    "image": ""
+    "image": "https://doge2048.com/meta/doge-600.png"
   },
   {
     "name": "flappybird",
     "url": "/games/flappybird/",
-    "image": ""
+    "image": "https://upload.wikimedia.org/wikipedia/en/0/0a/Flappy_Bird_icon.png"
   },
   {
     "name": "geodash",
     "url": "/games/geodash/",
-    "image": ""
+    "image": "https://upload.wikimedia.org/wikipedia/en/thumb/4/4d/Logo_of_Geometry_Dash.svg/1200px-Logo_of_Geometry_Dash.svg.png"
   },
   {
     "name": "google-feud",
     "url": "/games/google-feud/",
-    "image": ""
+    "image": "https://unoonline.io/upload/imgs/google-feud.jpg"
   },
   {
     "name": "just-fall",
     "url": "/games/just-fall/",
-    "image": ""
+    "image": "https://play-lh.googleusercontent.com/-0rSllZ8as88Jcs3iZ7-JCFyTb3YLB-HjR7bY7P6q_2MAswmDH4h1qNPfFiaZqzkkg"
   },
   {
     "name": "slope2",
     "url": "/games/slope2/",
-    "image": ""
+    "image": "https://htmlxm.github.io/thumb/slope-2.png"
   },
   {
     "name": "tinyfishing",
     "url": "/games/tinyfishing/",
-    "image": ""
+    "image": "https://img.poki-cdn.com/cdn-cgi/image/quality=78,width=314,height=314,fit=cover,f=auto/c8cb366d52fc2a67fb313c344efdbc9e.png"
   }
 ]
