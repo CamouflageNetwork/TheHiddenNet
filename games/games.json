@@ -2,81 +2,146 @@
   {
     "name": "1v1lol",
     "url": "/games/1v1lol/",
-    "image": "https://1v1.lol/assets/images/thumbnail.jpg"
+    "image": "https://pbs.twimg.com/profile_images/1618270716381593601/FDftiXwH_400x400.jpg"
   },
   {
     "name": "2048-multitask",
     "url": "/games/2048-multitask/",
-    "image": "https://he1l-v4.vercel.app/projects/2048-multitask/thumbnail.png"
-  },
-  {
-    "name": "2048",
-    "url": "/games/2048/",
-    "image": "https://play-lh.googleusercontent.com/2048/thumbnail.jpg"
+    "image": "https://play-lh.googleusercontent.com/bZregCeEpzMwRoocLnsYb4Te-vPPHkW1k5H1xsQ3qK9yE00fixpWu5fNsUz3ut2IiDHn"
   },
   {
     "name": "3line",
     "url": "/games/3line/",
-    "image": "https://example.com/3line/thumbnail.jpg"
+    "image": "https://lh3.googleusercontent.com/proxy/uny1joj8ujY-AUu_dmjBJRxT77inmyyY_eSpDZzsG0zcswQbzdsMQGAM50OEj43FR9Pmsqs_gv8DZE07CcKMtBayP2BKCA"
   },
   {
     "name": "9007199254740992",
     "url": "/games/9007199254740992/",
-    "image": "https://dmitrykuzmenko.github.io/2048/thumbnail.png"
+    "image": "https://games-site.github.io/projects/9007199254740992/logo-4.png"
   },
   {
     "name": "a-dance-of-fire-and-ice",
     "url": "/games/a-dance-of-fire-and-ice/",
-    "image": "https://snokido.com/game/a-dance-of-fire-and-ice/thumbnail.jpg"
+    "image": "https://play-lh.googleusercontent.com/L8rCly8hMWuP95PbihDZlSV2u0oGrs0hl2lEXboO7XHX2XalJZ1rjgOsFYXnEDWbpQ"
   },
   {
     "name": "achievementunlocked",
     "url": "/games/achievementunlocked/",
-    "image": "https://silvergames.com/en/achievement-unlocked/thumbnail.jpg"
+    "image": "https://cdn2.steamgriddb.com/thumb/2edad989553573af7807ad0803d6f712.jpg"
   },
   {
     "name": "achievementunlocked2",
     "url": "/games/achievementunlocked2/",
-    "image": "https://example.com/achievement-unlocked-2/thumbnail.jpg"
+    "image": "https://jayisgames.com/images/dora_achievement2_title.jpg"
   },
   {
     "name": "achievementunlocked3",
     "url": "/games/achievementunlocked3/",
-    "image": "https://example.com/achievement-unlocked-3/thumbnail.jpg"
+    "image": "https://img.ngfiles.com/playlists/sleeves/405000/405098.webp?f1728233180%20width="
   },
   {
     "name": "adrenalinechallenge",
     "url": "/games/adrenalinechallenge/",
-    "image": "https://example.com/adrenaline-challenge/thumbnail.jpg"
+    "image": "https://static.arcadespot.com/wp-content/uploads/2016/12/adrenaline-challenge-164x164.png"
   },
   {
     "name": "ageofwar",
     "url": "/games/ageofwar/",
-    "image": "https://play-lh.googleusercontent.com/age-of-war/thumbnail.jpg"
+    "image": "https://play-lh.googleusercontent.com/cgfjh-wXhG7rh0mCejpGwYmBw4PoDnBRQ2P6ARrHpGG0dTeP109HovgHyC_6Cqu4WA"
   },
   {
     "name": "ages-of-conflict",
     "url": "/games/ages-of-conflict/",
-    "image": "https://example.com/ages-of-conflict/thumbnail.jpg"
+    "image": "https://games-site.github.io/projects/ages-of-conflict/splash.jpg"
   },
   {
     "name": "amorphous",
     "url": "/games/amorphous/",
-    "image": "https://example.com/amorphous/thumbnail.jpg"
+    "image": ""
   },
   {
     "name": "awesometanks2",
     "url": "/games/awesometanks2/",
-    "image": "https://example.com/awesome-tanks-2/thumbnail.jpg"
+    "image": ""
   },
   {
     "name": "badicecream",
     "url": "/games/badicecream/",
-    "image": "https://example.com/bad-ice-cream/thumbnail.jpg"
+    "image": ""
   },
   {
     "name": "badicecream2",
     "url": "/games/badicecream2/",
-    "image": "https://example.com/bad-ice-cream-2/thumbnail.jpg"
+    "image": ""
+  },
+  {
+    "name": "badicecream3",
+    "url": "/games/badicecream3/",
+    "image": ""
+  },
+  {
+    "name": "basket-random",
+    "url": "/games/basket-random/",
+    "image": ""
+  },
+  {
+    "name": "basketball-stars",
+    "url": "/games/basketball-stars/",
+    "image": ""
+  },
+  {
+    "name": "basketbros-io",
+    "url": "/games/basketbros-io/",
+    "image": ""
+  },
+  {
+    "name": "bitlife",
+    "url": "/games/bitlife/",
+    "image": ""
+  },
+  {
+    "name": "core-ball",
+    "url": "/games/core-ball/",
+    "image": ""
+  },
+  {
+    "name": "cupcake2048",
+    "url": "/games/cupcake2048/",
+    "image": ""
+  },
+  {
+    "name": "doge2048",
+    "url": "/games/doge2048/",
+    "image": ""
+  },
+  {
+    "name": "flappybird",
+    "url": "/games/flappybird/",
+    "image": ""
+  },
+  {
+    "name": "geodash",
+    "url": "/games/geodash/",
+    "image": ""
+  },
+  {
+    "name": "google-feud",
+    "url": "/games/google-feud/",
+    "image": ""
+  },
+  {
+    "name": "just-fall",
+    "url": "/games/just-fall/",
+    "image": ""
+  },
+  {
+    "name": "slope2",
+    "url": "/games/slope2/",
+    "image": ""
+  },
+  {
+    "name": "tinyfishing",
+    "url": "/games/tinyfishing/",
+    "image": ""
   }
 ]
