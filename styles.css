@@ -192,7 +192,7 @@ h3 {
   height: 50px;
   background: rgba(2, 166, 70, 0.9);
   color: white;
-  font-size: 1.5rem;
+  font-size: 1rem;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -201,6 +201,7 @@ h3 {
   transition: opacity 0.3s ease, transform 0.3s ease;
   opacity: 0;
   cursor: pointer;
+  text-decoration: none;
 }
 .game-item:hover .play-button {
   opacity: 1;
