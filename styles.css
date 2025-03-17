@@ -31,6 +31,7 @@ body {
   border-image-source: linear-gradient(270deg, #ff0000, #ff7300, #ffeb00, #47ff00, #00ffb3, #0033ff, #7a00ff, #ff00f2);
   border-image-slice: 1;
   animation: borderAnimation 4s linear infinite;
+  z-index: 999;
 }
 @keyframes borderAnimation {
   0% { border-image-source: linear-gradient(0deg, #ff0000, #ff7300, #ffeb00, #47ff00, #00ffb3, #0033ff, #7a00ff, #ff00f2); }
