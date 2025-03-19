@@ -15,7 +15,7 @@ try {
 registerSW()
   .then(() => {
     window.open(
-      __uv$config.prefix + __uv$config.encodeUrl(destination.toString()),
+      __uv$config.prefix + __uv$config.encodeUrl(url),
       "_self"
     );
   })
