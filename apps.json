@@ -43,5 +43,10 @@
         "name": "TikTok",
         "url": "/active/iframe.html#https://tiktok.com/",
         "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQP0N3zvG1w5AohL7rpXml844HBmbINcRx0oDSCMCrpiT55vOV8ILlUzTV78Q6na5tPjxs&usqp=CAU"
+    },
+    {
+        "name": "Vortex",
+        "url": "/active/iframe.html#https://vortexos.net/",
+        "image": "/img/Vortex.png"
     }
 ]
