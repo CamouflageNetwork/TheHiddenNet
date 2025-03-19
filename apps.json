@@ -48,5 +48,10 @@
         "name": "Vortex",
         "url": "/active/iframe.html#https://vortexos.net/",
         "image": "/img/Vortex.png"
+    },
+    {
+        "name": "Cobalt",
+        "url": "/active/iframe.html#https://cobalt.tools/",
+        "image": "https://cdn-1.webcatalog.io/catalog/cobalt-tools/cobalt-tools-icon-filled-256.webp?v=1731315722906"
     }
 ]
