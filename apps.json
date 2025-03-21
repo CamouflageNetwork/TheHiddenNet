@@ -22,17 +22,17 @@
   {
     "name": "Discord",
     "url": "/active/iframe.html#https://discord.com/",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Discord_logo_2015.svg/1024px-Discord_logo_2015.svg.png"
+    "image": "https://cdn.discordapp.com/icons/769837612446003743/a_228631e4649fe2c7c4d3bc9860b61f9d.gif"
   },
   {
     "name": "Brave",
     "url": "/active/iframe.html#https://search.brave.com/",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Brave_logo_2020.svg/1024px-Brave_logo_2020.svg.png"
+    "image": "https://assets-global.website-files.com/6043a5a6d1ec5b5d702aefda/60c723cdbf626557f56e54e5_Brave_Logo.svg"
   },
   {
     "name": "Itch.io",
     "url": "/active/iframe.html#https://itch.io/",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Itch.io_logo_2019.svg/1024px-Itch.io_logo_2019.svg.png"
+    "image": "https://www.itch.io/favicon.ico"
   },
   {
     "name": "Crazy Games",
@@ -42,7 +42,7 @@
   {
     "name": "TikTok",
     "url": "/active/iframe.html#https://tiktok.com/",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/TikTok_logo_2018.svg/1024px-TikTok_logo_2018.svg.png"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a9/TikTok_logo_2018.svg"
   },
   {
     "name": "Vortex",
@@ -62,12 +62,12 @@
   {
     "name": "Opera",
     "url": "/active/iframe.html#https://www.opera.com/",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Opera_Logo_2016.svg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Opera_logo_2015.svg/1024px-Opera_logo_2015.svg.png"
   },
   {
     "name": "Microsoft Edge",
     "url": "/active/iframe.html#https://www.microsoft.com/en-us/edge",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Microsoft_Edge_2020_logo.svg/1024px-Microsoft_Edge_2020_logo.svg.png"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Microsoft_Edge_logo_%282019-2020%29.svg/1024px-Microsoft_Edge_logo_%282019-2020%29.svg.png"
   },
   {
     "name": "Twitter",
@@ -77,7 +77,7 @@
   {
     "name": "Reddit",
     "url": "/active/iframe.html#https://www.reddit.com/",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Reddit_logo_2023.png/1024px-Reddit_logo_2023.png"
+    "image": "https://www.redditinc.com/assets/images/site/reddit-logo.png"
   },
   {
     "name": "Spotify",
@@ -97,6 +97,6 @@
   {
     "name": "Vimeo",
     "url": "/active/iframe.html#https://vimeo.com/",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Vimeo_logo_2019.svg/1024px-Vimeo_logo_2019.svg.png"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Vimeo_logo_2018.svg"
   }
 ]
