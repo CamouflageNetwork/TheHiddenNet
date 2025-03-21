@@ -1,212 +1,102 @@
 [
-    {
-        "name": "Google",
-        "url": "/active/iframe.html#https://google.com/",
-        "image": "https://www.google.com/images/branding/googlelogo/2x/google-logo-light_color_92x30dp.png"
-    },
-    {
-        "name": "DuckDuckGo",
-        "url": "/active/iframe.html#https://duckduckgo.com/",
-        "image": "https://duckduckgo.com/assets/logo_homepage.normal.v108.svg"
-    },
-    {
-        "name": "Vscode",
-        "url": "/active/iframe.html#https://vscode.dev/",
-        "image": "https://code.visualstudio.com/favicon.ico"
-    },
-    {
-        "name": "Youtube",
-        "url": "/active/iframe.html#https://youtube.com/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png"
-    },
-    {
-        "name": "Discord",
-        "url": "/active/iframe.html#https://discord.com/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Discord_logo_2015.svg/1024px-Discord_logo_2015.svg.png"
-    },
-    {
-        "name": "Brave",
-        "url": "/active/iframe.html#https://search.brave.com/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Brave_logo_2020.svg/1024px-Brave_logo_2020.svg.png"
-    },
-    {
-        "name": "Itch.io",
-        "url": "/active/iframe.html#https://itch.io/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Itch.io_logo_2019.svg/1024px-Itch.io_logo_2019.svg.png"
-    },
-    {
-        "name": "Crazy Games",
-        "url": "/active/iframe.html#https://crazygames.com/",
-        "image": "https://www.crazygames.com/favicon.ico"
-    },
-    {
-        "name": "TikTok",
-        "url": "/active/iframe.html#https://tiktok.com/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/TikTok_logo_2018.svg/1024px-TikTok_logo_2018.svg.png"
-    },
-    {
-        "name": "Vortex",
-        "url": "/active/iframe.html#https://vortexos.net/",
-        "image": "/img/Vortex.png"
-    },
-    {
-        "name": "Cobalt",
-        "url": "/active/iframe.html#https://cobalt.tools/",
-        "image": "https://cdn-1.webcatalog.io/catalog/cobalt-tools/cobalt-tools-icon-filled-256.webp?v=1731315722906"
-    },
-    {
-        "name": "X.com",
-        "url": "/active/iframe.html#https://x.com/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/X_logo_2023.svg/1024px-X_logo_2023.svg.png"
-    },
-    {
-        "name": "Opera",
-        "url": "/active/iframe.html#https://www.opera.com/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Opera_Logo_2016.svg"
-    },
-    {
-        "name": "Microsoft Edge",
-        "url": "/active/iframe.html#https://www.microsoft.com/en-us/edge",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Microsoft_Edge_2020_logo.svg/1024px-Microsoft_Edge_2020_logo.svg.png"
-    },
-    {
-        "name": "Twitter",
-        "url": "/active/iframe.html#https://twitter.com/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Twitter_Logo_2021.svg/1200px-Twitter_Logo_2021.svg.png"
-    },
-    {
-        "name": "Reddit",
-        "url": "/active/iframe.html#https://reddit.com/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Reddit_logo_2023.png/1024px-Reddit_logo_2023.png"
-    },
-    {
-        "name": "Spotify",
-        "url": "/active/iframe.html#https://spotify.com/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg"
-    },
-    {
-        "name": "Slack",
-        "url": "/active/iframe.html#https://slack.com/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Slack_Logo_2019.svg"
-    },
-    {
-        "name": "Zoom",
-        "url": "/active/iframe.html#https://zoom.us/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Zoom_communications_logo_2021.svg/1024px-Zoom_communications_logo_2021.svg.png"
-    },
-    {
-        "name": "Vimeo",
-        "url": "/active/iframe.html#https://vimeo.com/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Vimeo_logo_2019.svg/1024px-Vimeo_logo_2019.svg.png"
-    },
-    {
-        "name": "GitHub",
-        "url": "/active/iframe.html#https://github.com/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
-    },
-    {
-        "name": "Notion",
-        "url": "/active/iframe.html#https://www.notion.so/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Notion_logo_2020.svg/1024px-Notion_logo_2020.svg.png"
-    },
-    {
-        "name": "Pinterest",
-        "url": "/active/iframe.html#https://pinterest.com/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Pinterest_Logo_2023.png/1024px-Pinterest_Logo_2023.png"
-    },
-    {
-        "name": "Twitch",
-        "url": "/active/iframe.html#https://twitch.tv/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Twitch_Logo_2019.svg/1024px-Twitch_Logo_2019.svg.png"
-    },
-    {
-        "name": "Steam",
-        "url": "/active/iframe.html#https://store.steampowered.com/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Steam_icon_logo.svg/1024px-Steam_icon_logo.svg.png"
-    },
-    {
-        "name": "GitLab",
-        "url": "/active/iframe.html#https://gitlab.com/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/GitLab_Logo.svg/1024px-GitLab_Logo.svg.png"
-    },
-    {
-        "name": "Figma",
-        "url": "/active/iframe.html#https://figma.com/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Figma-logo.svg/1024px-Figma-logo.svg.png"
-    },
-    {
-        "name": "Notepad++",
-        "url": "/active/iframe.html#https://notepad-plus-plus.org/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Notepad%2B%2B_logo_2021.svg/1024px-Notepad%2B%2B_logo_2021.svg.png"
-    },
-    {
-        "name": "Linode",
-        "url": "/active/iframe.html#https://linode.com/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Linode_logo.svg/1024px-Linode_logo.svg.png"
-    },
-    {
-        "name": "Amazon",
-        "url": "/active/iframe.html#https://amazon.com/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png"
-    },
-    {
-        "name": "Facebook",
-        "url": "/active/iframe.html#https://facebook.com/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Facebook_f_logo_%282019%29.svg/1024px-Facebook_f_logo_%282019%29.svg.png"
-    },
-    {
-        "name": "Instagram",
-        "url": "/active/iframe.html#https://instagram.com/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/1024px-Instagram_logo_2016.svg.png"
-    },
-    {
-        "name": "Snapchat",
-        "url": "/active/iframe.html#https://snapchat.com/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Snapchat_logo.svg/1024px-Snapchat_logo.svg.png"
-    },
-    {
-        "name": "WhatsApp",
-        "url": "/active/iframe.html#https://whatsapp.com/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/WhatsApp.svg/1024px-WhatsApp.svg.png"
-    },
-    {
-        "name": "LinkedIn",
-        "url": "/active/iframe.html#https://linkedin.com/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinkedIn_Logo_2013.svg/1024px-LinkedIn_Logo_2013.svg.png"
-    },
-    {
-        "name": "Trello",
-        "url": "/active/iframe.html#https://trello.com/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Trello_logo_2017.svg/1024px-Trello_logo_2017.svg.png"
-    },
-    {
-        "name": "Asana",
-        "url": "/active/iframe.html#https://asana.com/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Asana_Logo_2018.svg/1024px-Asana_Logo_2018.svg.png"
-    },
-    {
-        "name": "Basecamp",
-        "url": "/active/iframe.html#https://basecamp.com/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Basecamp_logo.svg/1024px-Basecamp_logo.svg.png"
-    },
-    {
-        "name": "Dropbox",
-        "url": "/active/iframe.html#https://dropbox.com/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Dropbox_logo_2017.svg/1024px-Dropbox_logo_2017.svg.png"
-    },
-    {
-        "name": "Google Drive",
-        "url": "/active/iframe.html#https://drive.google.com/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Google_Drive_logo_2018.svg/1024px-Google_Drive_logo_2018.svg.png"
-    },
-    {
-        "name": "Evernote",
-        "url": "/active/iframe.html#https://evernote.com/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Evernote_logo_2018.svg/1024px-Evernote_logo_2018.svg.png"
-    },
-    {
-        "name": "OneDrive",
-        "url": "/active/iframe.html#https://onedrive.live.com/",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/OneDrive_Logo_2013.svg/1024px-OneDrive_Logo_2013.svg.png"
-    }
+  {
+    "name": "Google",
+    "url": "/active/iframe.html#https://www.google.com/",
+    "image": "https://www.google.com/images/branding/googlelogo/2x/google-logo-light_color_92x30dp.png"
+  },
+  {
+    "name": "DuckDuckGo",
+    "url": "/active/iframe.html#https://duckduckgo.com/",
+    "image": "https://duckduckgo.com/assets/logo_homepage.normal.v108.svg"
+  },
+  {
+    "name": "Vscode",
+    "url": "/active/iframe.html#https://vscode.dev/",
+    "image": "https://code.visualstudio.com/favicon.ico"
+  },
+  {
+    "name": "YouTube",
+    "url": "/active/iframe.html#https://youtube.com/",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png"
+  },
+  {
+    "name": "Discord",
+    "url": "/active/iframe.html#https://discord.com/",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Discord_logo_2015.svg/1024px-Discord_logo_2015.svg.png"
+  },
+  {
+    "name": "Brave",
+    "url": "/active/iframe.html#https://search.brave.com/",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Brave_logo_2020.svg/1024px-Brave_logo_2020.svg.png"
+  },
+  {
+    "name": "Itch.io",
+    "url": "/active/iframe.html#https://itch.io/",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Itch.io_logo_2019.svg/1024px-Itch.io_logo_2019.svg.png"
+  },
+  {
+    "name": "Crazy Games",
+    "url": "/active/iframe.html#https://crazygames.com/",
+    "image": "https://www.crazygames.com/favicon.ico"
+  },
+  {
+    "name": "TikTok",
+    "url": "/active/iframe.html#https://tiktok.com/",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/TikTok_logo_2018.svg/1024px-TikTok_logo_2018.svg.png"
+  },
+  {
+    "name": "Vortex",
+    "url": "/active/iframe.html#https://vortexos.net/",
+    "image": "https://vortexos.net/favicon.ico"
+  },
+  {
+    "name": "Cobalt",
+    "url": "/active/iframe.html#https://cobalt.tools/",
+    "image": "https://cdn-1.webcatalog.io/catalog/cobalt-tools/cobalt-tools-icon-filled-256.webp?v=1731315722906"
+  },
+  {
+    "name": "X.com",
+    "url": "/active/iframe.html#https://x.com/",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/X_logo_2023.svg/1024px-X_logo_2023.svg.png"
+  },
+  {
+    "name": "Opera",
+    "url": "/active/iframe.html#https://www.opera.com/",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Opera_Logo_2016.svg"
+  },
+  {
+    "name": "Microsoft Edge",
+    "url": "/active/iframe.html#https://www.microsoft.com/en-us/edge",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Microsoft_Edge_2020_logo.svg/1024px-Microsoft_Edge_2020_logo.svg.png"
+  },
+  {
+    "name": "Twitter",
+    "url": "/active/iframe.html#https://twitter.com/",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Twitter_Logo_2021.svg/1200px-Twitter_Logo_2021.svg.png"
+  },
+  {
+    "name": "Reddit",
+    "url": "/active/iframe.html#https://www.reddit.com/",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Reddit_logo_2023.png/1024px-Reddit_logo_2023.png"
+  },
+  {
+    "name": "Spotify",
+    "url": "/active/iframe.html#https://www.spotify.com/",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg"
+  },
+  {
+    "name": "Slack",
+    "url": "/active/iframe.html#https://slack.com/",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Slack_Logo_2019.svg"
+  },
+  {
+    "name": "Zoom",
+    "url": "/active/iframe.html#https://zoom.us/",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/Zoom_communications_logo_2021.svg/1024px-Zoom_communications_logo_2021.svg.png"
+  },
+  {
+    "name": "Vimeo",
+    "url": "/active/iframe.html#https://vimeo.com/",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Vimeo_logo_2019.svg/1024px-Vimeo_logo_2019.svg.png"
+  }
 ]
